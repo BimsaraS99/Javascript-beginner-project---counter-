@@ -1,0 +1,58 @@
+/* Set background image */
+body {
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  /* Basic styles for headings */
+  h1, h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4em;
+    margin-top: 3em;
+  }
+  
+  h2 {
+    font-size: 3em;
+    margin-top: 2em;
+  }
+  
+  /* Basic styles for buttons */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Other styles you want to add */
+  p {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 1px;
+  }
+  
